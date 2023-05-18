@@ -40,8 +40,15 @@ public class IntroLab {
      * As a reference, we've provided the sample method exampleStudent.
      * Make sure you document your method properly!
      */
+
     public static String balenth1(){
         return printLabMessage("Hi", "T B", false, "I'm excited for CSC207!");
+    }
+      
+    public static String chowd723() {
+        return printLabMessage("Guten targ", "Shaswata Chowdhury", true,
+                "They are the objectively superior species. If you disagree, reconsider or else.");
+
     }
 
     /**
@@ -55,6 +62,7 @@ public class IntroLab {
 
     public static void main(final String[] args) {
         System.out.println(exampleStudent());
+        System.out.println(chowd723());
 
         /* TODO: Add a call to the method you wrote in this main method,
          *        and print the results of it.
