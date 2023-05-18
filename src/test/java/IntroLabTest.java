@@ -30,4 +30,11 @@ public class IntroLabTest {
      *       the test results.
      * As a reference, we've included testExampleStudent above.
      */
+
+    @Test(timeout = 30)
+    public void testbalenth1(){
+        String expected = "Hi! My name is T B! I like dogs more than cats! I'm excited for CSC207!";
+        String actual = IntroLab.balenth1();
+        assertEquals(expected, actual);
+    }
 }
