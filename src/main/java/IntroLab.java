@@ -41,6 +41,11 @@ public class IntroLab {
      * Make sure you document your method properly!
      */
 
+    public static String arandaaron04() {
+        return printLabMessage("Hello", "Aaron Aranda", false,
+                "What is up.");
+    }
+
     /**
      * An example method that calls on printLabMessage.
      */
@@ -60,6 +65,7 @@ public class IntroLab {
          * above. Afterwards: run this file to see the output!
          */
 
+        System.out.println(arandaaron04());
 
     }
 
