@@ -30,4 +30,11 @@ public class IntroLabTest {
      *       the test results.
      * As a reference, we've included testExampleStudent above.
      */
+    @Test()
+    public void testchowd723() {
+        String expected = "Guten targ! My name is Shaswata Chowdhury! " + "I like cats more than dogs! " +
+                "They are the objectively superior species. If you disagree, reconsider or else.";
+        String actual = IntroLab.chowd723();
+        assertEquals(expected, actual);
+    }
 }
